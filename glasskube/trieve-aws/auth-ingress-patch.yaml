@@ -1,0 +1,6 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: trieve-keycloak
+  annotations:
+    alb.ingress.kubernetes.io/success-codes: 200-300,302

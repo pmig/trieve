@@ -7,3 +7,4 @@ patches:
       group: networking.k8s.io
       kind: Ingress
     path: ingress-patch.yaml
+  - path: auth-ingress-patch.yaml
